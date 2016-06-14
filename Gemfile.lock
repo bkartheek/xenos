@@ -73,6 +73,18 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
+    netzke (0.12.0)
+      netzke-basepack (~> 0.12.0)
+      netzke-core (~> 0.12.0)
+      netzke-testing (~> 0.12.0)
+    netzke-basepack (0.12.1)
+      netzke-core (~> 0.12.0)
+      netzke-testing (~> 0.12.0)
+    netzke-core (0.12.1)
+      execjs
+      uglifier
+    netzke-testing (0.12.2)
+      coffee-script
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -149,6 +161,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  netzke
   rails (= 4.2.0)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
